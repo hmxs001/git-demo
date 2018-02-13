@@ -1,7 +1,19 @@
+git 不需要服务器
+
 git init 			//初始化一个本地的仓库
 git status 			//用于查看本地仓储的状态
 git status -s 			// -s 是输出简要的变更日志
 git add				//可以将一个没有被跟踪的文件添加到跟踪列表
 git add .或git add --all  	//添加全部到跟踪列表
+git commit			//将本地的变化提交的本地的仓库文件夹归档(一般在有了一个小单元的整体变化后再提交)
+git commit -m "第一次提交代码到本地仓库"     //-m 说明
+git diff 			//可以用于对比当前状态和版本库中状态的变化
+git log 			//可以查看提交日志
+git reset --hard 哈希值前六位	//回归到指定版本		
+
+
 
 .gitignore文件			//此文件用于说明忽略的文件有哪些
+GitGutter 插件 在sublime中安装能够看够git修改发生的变化
+devtool	node断点
+
