@@ -1,0 +1,6 @@
+创建aa文件夹
+mkdir .aa
+
+
+创建aa文件
+echo '' >> .aa

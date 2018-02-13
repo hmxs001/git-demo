@@ -1,0 +1,7 @@
+git init 			//初始化一个本地的仓库
+git status 			//用于查看本地仓储的状态
+git status -s 			// -s 是输出简要的变更日志
+git add				//可以将一个没有被跟踪的文件添加到跟踪列表
+git add .或git add --all  	//添加全部到跟踪列表
+
+.gitignore文件			//此文件用于说明忽略的文件有哪些
