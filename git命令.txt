@@ -10,7 +10,9 @@ git commit -m "第一次提交代码到本地仓库"     //-m 说明
 git diff 			//可以用于对比当前状态和版本库中状态的变化
 git log 			//可以查看提交日志
 git reset --hard 哈希值前六位	//回归到指定版本		
-
+git branch 			//查看当前有几个分支
+git branch  v2			//创建v2分支
+git checkout v2			//选择v2分支
 
 
 .gitignore文件			//此文件用于说明忽略的文件有哪些
